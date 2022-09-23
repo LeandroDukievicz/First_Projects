@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+          /* Base do CSS */
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+body{
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color:#fff;
+}
+
+header .logo{
+   
+    color: var(--vermelho);
+    font-family: 'arial black','Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+header nav a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration:none;
+    margin-right: 20px;
+    color:#AAA;
+   
+
+}
+
+header nav a:hover{
+    color: #fff ;
+}
+
+
+
+header .container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Base do Card Principal */
+
+.filmePrincipal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/img/1_homem_aranha_e_doutor_estranho_em_poster_de_spider_man_no_way_home_segundo_trailer_lancado-17501064.jpg);
+   
+    height: 400px;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.titulo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    
+}
+p{
+    margin-top: 10px;
+   
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    margin-left: 20px;
+}
+
+.filmePrincipal .container{
+    width: 70%;
+}
+
+.btn{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color:#fff;
+    padding: 15px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 8px;
+}
+.btn:hover{
+    border :    1px solid #fff;
+    
+    background-color: #fff;
+    color:black
+   
+}
+
+i{
+    margin-right: 8px;
+    font-size: 15px;
+}
+
+.box-filmes{
+    padding-top: 10px;
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor:pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
