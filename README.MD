@@ -16,3 +16,16 @@
 <div align = "center">
   <img height="400em" src="https://github.com/LeandroDukievicz/toggle/blob/main/ezgif.com-gif-maker.gif"/>
   </div>
+
+#
+
+
+#### 02 - Projeto - Loading Neon
+
+
+##### Projeto baseado em um tutorial, para treino, um loading animado, consegui adentrar um pouco mais no conhecimento de algumas técnicas css..
+
+
+<div align ="center">
+  <img height="400em" src="https://github.com/LeandroDukievicz/loadingNeon/blob/main/ezgif.com-gif-maker.gif"/>
+  </div>
