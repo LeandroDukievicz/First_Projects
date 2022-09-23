@@ -29,3 +29,17 @@
 <div align ="center">
   <img height="400em" src="https://github.com/LeandroDukievicz/loadingNeon/blob/main/ezgif.com-gif-maker.gif"/>
   </div>
+  
+  #
+  
+  #### 03 -  Ghost words
+  ##### Um Projeto Simples para aplicação e aprendizado da função hover do css
+
+<div align = "center">
+  <img height = "400em" src="https://github.com/LeandroDukievicz/ghostWords/blob/main/ezgif.com-gif-maker.gif"/>
+  </div>
+  
+  #
+  
+  
+
