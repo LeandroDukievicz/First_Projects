@@ -1,0 +1,54 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+ 
+}
+
+
+body{
+    width: 100%;
+    background-image: url(assets/maxgimp.png);
+    background-repeat: no-repeat;
+   
+}
+
+
+
+
+h1{
+    color: #fff;
+
+}
+
+section{
+    width:100vw;
+    display:flex;
+    justify-content: center;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    height: auto;
+    
+}
+
+
+figure{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#max{
+    width: 22%;
+    margin-top: 40px;
+    position:relative;
+    margin-right: 350px;
+    z-index: 1;
+ 
+   
+}
+
