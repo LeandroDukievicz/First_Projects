@@ -1,0 +1,37 @@
+:root {
+  --primary: #25abd9;
+  --primary-dark: #2090b7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dcf5ff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.button {
+  background: var(--primary);
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: 800;
+  height: 50px;
+  padding: 5px;
+  text-transform: uppercase;
+  width: 150px;
+}
+

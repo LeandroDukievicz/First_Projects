@@ -1,0 +1,15 @@
+:root {
+  --primary: #25abd9;
+}
+
+body {
+  background: #000;
+  height: 100vh;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}

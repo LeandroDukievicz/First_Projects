@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3096be;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 900px;
+    width: 100%;
+}
+
+.card {
+    border-radius: 20px;
+    box-shadow: 0 5px 15px -4px #000;
+    height: 400px;
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+    width: 250px;
+}
+
+.card__image--1 {
+    background-image: url('https://images.pexels.com/photos/3565601/pexels-photo-3565601.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+}
+
+.card__image--2 {
+    background-image: url('https://images.pexels.com/photos/1122639/pexels-photo-1122639.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+}
+
+.card__image--3 {
+    background-image: url('https://images.pexels.com/photos/3750768/pexels-photo-3750768.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+}

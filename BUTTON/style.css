@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dcf5ff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.card {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 3px 3px 2px 2px #ccc;
+  display: flex;
+  flex-wrap: wrap;
+  height: 350px;
+  justify-content: space-between;
+  padding: 40px;
+  width: 500px;
+}
+
+.button {
+  background: none;
+  box-shadow: 0 5px 15px -5px #bbb;
+  cursor: pointer;
+  font-family: roboto;
+  font-size: 14px;
+  height: 50px;
+  padding: 5px;
+  position: relative;
+  width: 150px;
+}
+
+.button--six {
+  border-radius: 20px;
+  height: 75px;
+  width: 75px;
+}
