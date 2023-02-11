@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    align-items: center;
+    background-color: #eee;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
