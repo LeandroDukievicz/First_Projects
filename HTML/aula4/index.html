@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <form action="salvar.html" method="GET">
+    <label for="nome">Nome:</label>
+    <input id="nome" name="nome" type="text" placeholder="Digite o seu nome">
+    
+    <br><br>
+    
+    <label>E-mail</label>
+    <input name="email" type="email" placeholder="Digite o seu e-mail">
+    
+    <br><br>
+    
+    <label>Senha:</label>
+    <input name="senha" type="password" placeholder="Digite uma senha">
+    
+    <br><br>
+
+    <label>Selecione a cor do seu nome</label>
+    <input type="color" name="cor">
+
+    <br><br>
+
+    <label>Sexo:</label>
+    <br>
+    <input name="sexo" type="radio" value="masculino"> <label>Masculino</label>
+    <br>
+    <input name="sexo" type="radio" value="feminino"> <label>Feminino</label>
+    <br>
+    <input name="sexo" type="radio" value="nao definido"> <label>Prefiro não informar</label>
+
+    <br><br>
+
+    <label>Habilidades:</label>
+    <br>
+    <input name="habilidades" type="checkbox" value="html" id="html"> <label for="html">HTML</label>
+    <br>
+    <input name="habilidades" type="checkbox" value="css" id="css"> <label for="css">CSS</label>
+    <br>
+    <input name="habilidades" type="checkbox" value="javascript" id="javascript"> <label for="javascript">Javascript</label>
+
+    <br><br>
+
+    <label>Cidade:</label>
+    <br>
+    <select name="cidade">
+      <option selected value="">-- Selecione --</option>
+      <option value="São Paulo">São Paulo</option>
+      <option value="Rio de Janeiro">Rio de Janeiro</option>
+      <option value="Minas Gerais">Minas Gerais</option>
+    </select>
+
+
+    <br><br>
+
+    <label>Carro:</label>
+    <br>
+    <select>
+      <optgroup label="Honda">
+        <option value="Civic">Civic</option>
+      </optgroup>
+      <optgroup label="GM">
+        <option value="Celta">Celta</option>
+      </optgroup>
+      <optgroup label="Fiat">
+        <option value="Uno">Uno</option>
+      </optgroup>
+    </select>
+    
+    <br><br>
+
+    <button>Enviar</button>
+  </form>
+
+</body>
+</html>
