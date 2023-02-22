@@ -1,0 +1,76 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+
+}
+
+h1, h2, h3, h4, p {
+  margin-bottom: 15px;
+}
+
+.header {
+  background-image: url(https://www.portofhalifax.ca/wp-content/uploads/2016/11/Port-Authority-Header-Background.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+  font-size: 40px;
+  box-shadow: 0 0 10px black;
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+}
+
+.navbar {
+  width: 20%;
+  padding: 30px;
+}
+
+.navbar ul {
+  list-style: none;  
+}
+
+.navbar ul li {
+  border-radius: 10px 0px;
+  background-color: rgb(71, 71, 216);
+  margin-bottom: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar ul li a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.content {
+  width: 80%;
+  height: 60vh;
+  background: #f1f1f1;
+  box-shadow: 2px 2px 0 rgb(228, 228, 228);
+  padding: 30px 30px;
+  border-radius: 40px 0;
+  margin: 20px 20px 20px 0;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-top: auto;
+  background-color: rgb(231, 231, 231);
+  color: rgb(109, 86, 211);
+  text-align: center;
+  padding: 20px 0;
+}
